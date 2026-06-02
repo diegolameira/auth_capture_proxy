@@ -10,13 +10,14 @@
 
 Replace:
 
-```
+```python
 __uri__ = metadata["home-page"]
 ```
 
 with:
 
-```__uri__ = metadata.get("home-page") or metadata.get("Home-Page", "")
+```python
+__uri__ = metadata.get("home-page") or metadata.get("Home-Page", "")
 
 ```
 
