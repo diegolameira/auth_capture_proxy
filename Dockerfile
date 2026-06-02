@@ -42,4 +42,4 @@ COPY . /code
 # Perhaps run a command:
 # CMD authcaptureproxy --my --options --etc
 # or expose a port:
-# EXPOSE 443/tcp
+EXPOSE 443/tcp
